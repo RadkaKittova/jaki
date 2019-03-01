@@ -95,25 +95,76 @@ h1 {
     font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 
 }
+#poradna {
+    background: url(../img/poradna.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
 #poradna h1 {
     color: #FF66B2;
     border-bottom-style: dotted
+}
+#priprava {
+    background: url(../img/priprava.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }
 #priprava h1 {
    color: #6666FF;
    border-bottom-style: dotted
 }
+#cvicenie {
+    background: url(../img/cvicenie.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
 #cvicenie h1 {
     color: #00CC66;
     border-bottom-style: dotted
+}
+#cvicenie h4 {
+    color: #00CC66;
+}
+#cvicenie p {
+    color: #006633;
+}
+#cvicenie li {
+    color: #006633;
+}
+#doplnkove {
+    background: url(../img/doplnkove.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }
 #doplnkove h1 {
     color: #FFB266;
     border-bottom-style: dotted
 }
-#cennik h1 {
+#kontakt {
+    background: url(../img/kontakt.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+#kontakt h1 {
     color: #CCCC00;
     border-bottom-style: dotted
+}
+#oMne {
+    background: url(../img/foto.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #oMne h1 {
     color: #FF3333;
@@ -131,7 +182,5 @@ h1 {
 #oMne li {
     color: #990000;
 }
-#kontakt h1 {
-    color: #00cccc;
-    border-bottom-style: dotted
-}
+
+
