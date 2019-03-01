@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav>a>img {
+    width: 130px;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+nav {
+    background: white;
+    height: 80px;
+    border-bottom: 2px solid #990099;
+    transition:top ease 0.5s;
+}
+
+.nav-link {
+    margin-right: 18px;
+    color:#F43073;
+    font-size: 1.3em;
+}
+
+.nav-link:hover { 
+    color:rgb(146, 27, 68);
+    
+}
+
+section {
+    min-height: 800px;
+    background:#F8F9FA
+}
+
+.container {
+    padding-top: 80px;
+}
+
+.introPage {
+    margin-top: 5em;
+}
+
+.introBubbles {
+    padding-top: 5em;
+}
+
+.introBubbles div:nth-child(1) a:nth-child(1) {
+    color: #FF66B2;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.introBubbles div:nth-child(1) a:nth-child(1):hover {
+    transform: scale(1.2);
+    color: #FF007F;
+}
+
+.introBubbles div:nth-child(1) a:nth-child(2) {
+    color: #6666FF;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.introBubbles div:nth-child(1) a:nth-child(2):hover {
+     transform: scale(1.2);
+     color:  #0000CC
+}
+
+.introBubbles div:nth-child(3) a:nth-child(1) {
+    color: #00CC66;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.introBubbles div:nth-child(3) a:nth-child(1):hover {
+     transform: scale(1.2);
+     color: #00994C;
+}
+
+.introBubbles div:nth-child(3) a:nth-child(2) {
+    color: #FFB266;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: transform .2s;  
+}
+
+.introBubbles div:nth-child(3) a:nth-child(2):hover {
+    transform: scale(1.2);
+    color:#FF8000;
+}
+
+h1 {
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+
+}
+#poradna h1 {
+    color: #FF66B2;
+    border-bottom-style: dotted
+}
+#priprava h1 {
+   color: #6666FF;
+   border-bottom-style: dotted
+}
+#cvicenie h1 {
+    color: #00CC66;
+    border-bottom-style: dotted
+}
+#doplnkove h1 {
+    color: #FFB266;
+    border-bottom-style: dotted
+}
+#cennik h1 {
+    color: #CCCC00;
+    border-bottom-style: dotted
+}
+#oMne h1 {
+    color: #FF3333;
+    border-bottom-style: dotted
+}
+#oMne img {
+    height: 160px
+}
+#oMne h4 {
+    color: #FF3333;
+}
+#oMne p {
+    color: #990000;
+}
+#oMne li {
+    color: #990000;
+}
+#kontakt h1 {
+    color: #00cccc;
+    border-bottom-style: dotted
+}
